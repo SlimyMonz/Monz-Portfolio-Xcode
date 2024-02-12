@@ -15,6 +15,7 @@
 		75969F362B7A627E006DE41B /* Monz_PortfolioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75969F352B7A627E006DE41B /* Monz_PortfolioTests.swift */; };
 		75969F402B7A627E006DE41B /* Monz_PortfolioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75969F3F2B7A627E006DE41B /* Monz_PortfolioUITests.swift */; };
 		75969F422B7A627E006DE41B /* Monz_PortfolioUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75969F412B7A627E006DE41B /* Monz_PortfolioUITestsLaunchTests.swift */; };
+		75969F4F2B7A6413006DE41B /* NavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75969F4E2B7A6412006DE41B /* NavigationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		75969F3B2B7A627E006DE41B /* Monz PortfolioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Monz PortfolioUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		75969F3F2B7A627E006DE41B /* Monz_PortfolioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Monz_PortfolioUITests.swift; sourceTree = "<group>"; };
 		75969F412B7A627E006DE41B /* Monz_PortfolioUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Monz_PortfolioUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		75969F4E2B7A6412006DE41B /* NavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				75969F272B7A627E006DE41B /* Assets.xcassets */,
 				75969F292B7A627E006DE41B /* Monz_Portfolio.entitlements */,
 				75969F2A2B7A627E006DE41B /* Preview Content */,
+				75969F4E2B7A6412006DE41B /* NavigationView.swift */,
 			);
 			path = "Monz Portfolio";
 			sourceTree = "<group>";
@@ -264,6 +267,7 @@
 			files = (
 				75969F242B7A627D006DE41B /* ContentView.swift in Sources */,
 				75969F262B7A627D006DE41B /* Item.swift in Sources */,
+				75969F4F2B7A6413006DE41B /* NavigationView.swift in Sources */,
 				75969F222B7A627D006DE41B /* Monz_PortfolioApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -353,6 +357,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -408,6 +413,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -446,7 +452,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.slimymonz.Monz-Portfolio";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -484,7 +491,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.slimymonz.Monz-Portfolio";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
