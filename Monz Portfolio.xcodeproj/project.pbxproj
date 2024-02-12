@@ -1,0 +1,626 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		75969F222B7A627D006DE41B /* Monz_PortfolioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75969F212B7A627D006DE41B /* Monz_PortfolioApp.swift */; };
+		75969F242B7A627D006DE41B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75969F232B7A627D006DE41B /* ContentView.swift */; };
+		75969F262B7A627D006DE41B /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75969F252B7A627D006DE41B /* Item.swift */; };
+		75969F282B7A627E006DE41B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75969F272B7A627E006DE41B /* Assets.xcassets */; };
+		75969F2C2B7A627E006DE41B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75969F2B2B7A627E006DE41B /* Preview Assets.xcassets */; };
+		75969F362B7A627E006DE41B /* Monz_PortfolioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75969F352B7A627E006DE41B /* Monz_PortfolioTests.swift */; };
+		75969F402B7A627E006DE41B /* Monz_PortfolioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75969F3F2B7A627E006DE41B /* Monz_PortfolioUITests.swift */; };
+		75969F422B7A627E006DE41B /* Monz_PortfolioUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75969F412B7A627E006DE41B /* Monz_PortfolioUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		75969F322B7A627E006DE41B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75969F162B7A627C006DE41B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75969F1D2B7A627C006DE41B;
+			remoteInfo = "Monz Portfolio";
+		};
+		75969F3C2B7A627E006DE41B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75969F162B7A627C006DE41B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75969F1D2B7A627C006DE41B;
+			remoteInfo = "Monz Portfolio";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		75969F1E2B7A627D006DE41B /* Monz Portfolio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Monz Portfolio.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		75969F212B7A627D006DE41B /* Monz_PortfolioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Monz_PortfolioApp.swift; sourceTree = "<group>"; };
+		75969F232B7A627D006DE41B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		75969F252B7A627D006DE41B /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		75969F272B7A627E006DE41B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		75969F292B7A627E006DE41B /* Monz_Portfolio.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Monz_Portfolio.entitlements; sourceTree = "<group>"; };
+		75969F2B2B7A627E006DE41B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		75969F312B7A627E006DE41B /* Monz PortfolioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Monz PortfolioTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		75969F352B7A627E006DE41B /* Monz_PortfolioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Monz_PortfolioTests.swift; sourceTree = "<group>"; };
+		75969F3B2B7A627E006DE41B /* Monz PortfolioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Monz PortfolioUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		75969F3F2B7A627E006DE41B /* Monz_PortfolioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Monz_PortfolioUITests.swift; sourceTree = "<group>"; };
+		75969F412B7A627E006DE41B /* Monz_PortfolioUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Monz_PortfolioUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		75969F1B2B7A627C006DE41B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75969F2E2B7A627E006DE41B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75969F382B7A627E006DE41B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		75969F152B7A627C006DE41B = {
+			isa = PBXGroup;
+			children = (
+				75969F202B7A627D006DE41B /* Monz Portfolio */,
+				75969F342B7A627E006DE41B /* Monz PortfolioTests */,
+				75969F3E2B7A627E006DE41B /* Monz PortfolioUITests */,
+				75969F1F2B7A627D006DE41B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		75969F1F2B7A627D006DE41B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75969F1E2B7A627D006DE41B /* Monz Portfolio.app */,
+				75969F312B7A627E006DE41B /* Monz PortfolioTests.xctest */,
+				75969F3B2B7A627E006DE41B /* Monz PortfolioUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75969F202B7A627D006DE41B /* Monz Portfolio */ = {
+			isa = PBXGroup;
+			children = (
+				75969F212B7A627D006DE41B /* Monz_PortfolioApp.swift */,
+				75969F232B7A627D006DE41B /* ContentView.swift */,
+				75969F252B7A627D006DE41B /* Item.swift */,
+				75969F272B7A627E006DE41B /* Assets.xcassets */,
+				75969F292B7A627E006DE41B /* Monz_Portfolio.entitlements */,
+				75969F2A2B7A627E006DE41B /* Preview Content */,
+			);
+			path = "Monz Portfolio";
+			sourceTree = "<group>";
+		};
+		75969F2A2B7A627E006DE41B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				75969F2B2B7A627E006DE41B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		75969F342B7A627E006DE41B /* Monz PortfolioTests */ = {
+			isa = PBXGroup;
+			children = (
+				75969F352B7A627E006DE41B /* Monz_PortfolioTests.swift */,
+			);
+			path = "Monz PortfolioTests";
+			sourceTree = "<group>";
+		};
+		75969F3E2B7A627E006DE41B /* Monz PortfolioUITests */ = {
+			isa = PBXGroup;
+			children = (
+				75969F3F2B7A627E006DE41B /* Monz_PortfolioUITests.swift */,
+				75969F412B7A627E006DE41B /* Monz_PortfolioUITestsLaunchTests.swift */,
+			);
+			path = "Monz PortfolioUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		75969F1D2B7A627C006DE41B /* Monz Portfolio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75969F452B7A627E006DE41B /* Build configuration list for PBXNativeTarget "Monz Portfolio" */;
+			buildPhases = (
+				75969F1A2B7A627C006DE41B /* Sources */,
+				75969F1B2B7A627C006DE41B /* Frameworks */,
+				75969F1C2B7A627C006DE41B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Monz Portfolio";
+			productName = "Monz Portfolio";
+			productReference = 75969F1E2B7A627D006DE41B /* Monz Portfolio.app */;
+			productType = "com.apple.product-type.application";
+		};
+		75969F302B7A627E006DE41B /* Monz PortfolioTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75969F482B7A627E006DE41B /* Build configuration list for PBXNativeTarget "Monz PortfolioTests" */;
+			buildPhases = (
+				75969F2D2B7A627E006DE41B /* Sources */,
+				75969F2E2B7A627E006DE41B /* Frameworks */,
+				75969F2F2B7A627E006DE41B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75969F332B7A627E006DE41B /* PBXTargetDependency */,
+			);
+			name = "Monz PortfolioTests";
+			productName = "Monz PortfolioTests";
+			productReference = 75969F312B7A627E006DE41B /* Monz PortfolioTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		75969F3A2B7A627E006DE41B /* Monz PortfolioUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75969F4B2B7A627E006DE41B /* Build configuration list for PBXNativeTarget "Monz PortfolioUITests" */;
+			buildPhases = (
+				75969F372B7A627E006DE41B /* Sources */,
+				75969F382B7A627E006DE41B /* Frameworks */,
+				75969F392B7A627E006DE41B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75969F3D2B7A627E006DE41B /* PBXTargetDependency */,
+			);
+			name = "Monz PortfolioUITests";
+			productName = "Monz PortfolioUITests";
+			productReference = 75969F3B2B7A627E006DE41B /* Monz PortfolioUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		75969F162B7A627C006DE41B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					75969F1D2B7A627C006DE41B = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					75969F302B7A627E006DE41B = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 75969F1D2B7A627C006DE41B;
+					};
+					75969F3A2B7A627E006DE41B = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 75969F1D2B7A627C006DE41B;
+					};
+				};
+			};
+			buildConfigurationList = 75969F192B7A627C006DE41B /* Build configuration list for PBXProject "Monz Portfolio" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 75969F152B7A627C006DE41B;
+			productRefGroup = 75969F1F2B7A627D006DE41B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				75969F1D2B7A627C006DE41B /* Monz Portfolio */,
+				75969F302B7A627E006DE41B /* Monz PortfolioTests */,
+				75969F3A2B7A627E006DE41B /* Monz PortfolioUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		75969F1C2B7A627C006DE41B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75969F2C2B7A627E006DE41B /* Preview Assets.xcassets in Resources */,
+				75969F282B7A627E006DE41B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75969F2F2B7A627E006DE41B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75969F392B7A627E006DE41B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		75969F1A2B7A627C006DE41B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75969F242B7A627D006DE41B /* ContentView.swift in Sources */,
+				75969F262B7A627D006DE41B /* Item.swift in Sources */,
+				75969F222B7A627D006DE41B /* Monz_PortfolioApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75969F2D2B7A627E006DE41B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75969F362B7A627E006DE41B /* Monz_PortfolioTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75969F372B7A627E006DE41B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75969F402B7A627E006DE41B /* Monz_PortfolioUITests.swift in Sources */,
+				75969F422B7A627E006DE41B /* Monz_PortfolioUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		75969F332B7A627E006DE41B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75969F1D2B7A627C006DE41B /* Monz Portfolio */;
+			targetProxy = 75969F322B7A627E006DE41B /* PBXContainerItemProxy */;
+		};
+		75969F3D2B7A627E006DE41B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75969F1D2B7A627C006DE41B /* Monz Portfolio */;
+			targetProxy = 75969F3C2B7A627E006DE41B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		75969F432B7A627E006DE41B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		75969F442B7A627E006DE41B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		75969F462B7A627E006DE41B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Monz Portfolio/Monz_Portfolio.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Monz Portfolio/Preview Content\"";
+				DEVELOPMENT_TEAM = A9AVR2YEBZ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.slimymonz.Monz-Portfolio";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		75969F472B7A627E006DE41B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Monz Portfolio/Monz_Portfolio.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Monz Portfolio/Preview Content\"";
+				DEVELOPMENT_TEAM = A9AVR2YEBZ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.slimymonz.Monz-Portfolio";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		75969F492B7A627E006DE41B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A9AVR2YEBZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.slimymonz.Monz-PortfolioTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Monz Portfolio.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Monz Portfolio";
+			};
+			name = Debug;
+		};
+		75969F4A2B7A627E006DE41B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A9AVR2YEBZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.slimymonz.Monz-PortfolioTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Monz Portfolio.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Monz Portfolio";
+			};
+			name = Release;
+		};
+		75969F4C2B7A627E006DE41B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A9AVR2YEBZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.slimymonz.Monz-PortfolioUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Monz Portfolio";
+			};
+			name = Debug;
+		};
+		75969F4D2B7A627E006DE41B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A9AVR2YEBZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.slimymonz.Monz-PortfolioUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Monz Portfolio";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		75969F192B7A627C006DE41B /* Build configuration list for PBXProject "Monz Portfolio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75969F432B7A627E006DE41B /* Debug */,
+				75969F442B7A627E006DE41B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75969F452B7A627E006DE41B /* Build configuration list for PBXNativeTarget "Monz Portfolio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75969F462B7A627E006DE41B /* Debug */,
+				75969F472B7A627E006DE41B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75969F482B7A627E006DE41B /* Build configuration list for PBXNativeTarget "Monz PortfolioTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75969F492B7A627E006DE41B /* Debug */,
+				75969F4A2B7A627E006DE41B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75969F4B2B7A627E006DE41B /* Build configuration list for PBXNativeTarget "Monz PortfolioUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75969F4C2B7A627E006DE41B /* Debug */,
+				75969F4D2B7A627E006DE41B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 75969F162B7A627C006DE41B /* Project object */;
+}
